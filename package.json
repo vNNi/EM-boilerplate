@@ -30,6 +30,7 @@
     "mongoose": "^5.4.19"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.3.22",
     "ts-node-dev": "^1.0.0-pre.32",
     "typescript": "^3.3.3333"
   }
