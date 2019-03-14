@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "tsc": "tsc" 
+    "tsc": "tsc",
+    "develop": "ts-node-dev --respawn --transpileOnly ./app/index.ts",
+    "start": "tsc && node ./build/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "mongoose": "^5.4.19"
   },
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32",
     "typescript": "^3.3.3333"
   }
 }
