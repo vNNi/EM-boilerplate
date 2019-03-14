@@ -4,7 +4,8 @@
   "description": "Simples archetype and dependencies for a Nodejs API project",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "tsc": "tsc" 
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "custom-env": "^1.0.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
   }
 }
